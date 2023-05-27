@@ -9,9 +9,9 @@ import DontMatch from "./pages/DontMatch";
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<Success/>} />
-      <Route path="/unsuccess" element={<Unsuccess/>} />
-      <Route path="/dontmatch" element={<DontMatch/>} />
+      <Route path="/" element={<Success />} />
+      <Route path="/unsuccess" element={<Unsuccess />} />
+      <Route path="/dontmatch" element={<DontMatch />} />
     </Routes>
   );
 }
